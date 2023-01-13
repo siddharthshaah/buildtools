@@ -1,0 +1,110 @@
+What is a build tool, why do we need to use it?
+all the activities that are required to be performed inorder to run/execute the application is called build process. The activities can be
+1. setting classpath
+2. exporting env variable
+3. compiling sourcecode
+4. packaging the sourcecode
+5. deploying and executing
+etc
+if we are performing the above activities manually it takes lot of time, instead of we take then help of build tools in automating these activities to quickly run the application
+
+In-Short:- Build Tool help us in performing the activities quickly in running an application.
+
+There are Integrated development environments (IDE) that allows us to develop and execute the application during the development of the application, why do we need build tools?
+There are several reasons in not using the IDE for running the application
+1. IDE is only used by the development team for developing the application, but while releasing the code for qa engineer or while deploying the code in production we will not use IDE
+2. In few cases, even the development team cannot use IDE for running the application
+	While working on an enterprise large project, it has multiple different modules which are inter-dependent interms of
+		1. build order dependencies
+		2. runtime dependencies
+	So loading such an huge project into the IDE and configuring the build order and deployment order of these modules is very complex. and due to the huge sourcecode of the project the IDE might become unresponsive eventually kills the productivity of the developer
+	
+So from the above we can understand the build activities should be carried ranging from developers to deployers in running the application.
+Performing the build activities in running the application manually has lot of problems/challenges:
+From developers:
+	1. There are several activities that has to be performed sequentially to build/execute an application which takes huge amount of time and kills the productivity of the developer
+	2. The developer during the time of development has to perform the build activities repeatedly for each change he modified inthe code to testing it, and manually performing these activities is painful job
+	3. Manually performing these build activities seems to be error prone since there are series of activities that should be conducted in specific order and might go wrong while doing these
+	
+From qa/deployment engineer:	
+	1. The qa engineers or deployment engineers are not java developers or not aware of the technology,the often find it very complex to conduct the build activities manually in running the application
+	2. it is hard to memorize and difficult to follow the activities that should be carried in running the application since there are lot of steps involved in running the application
+	3. if there are any errors while performing the build activities the qa/deployment engineer may not understand what went wrong and the only option left with is start right from the begining which kills lot of time
+	4. since there are lot of activities involved,there is chance where something might be missed during building the application which could result in in-proper code being deployed which leads to errors in running the application
+	5. if there is a change in build process/activities, incorporating these changes by qa/deployment engineer is high difficult
+	6. during the build activities the qa/deployment engineers has to modify several configuration files before packaging and running the application which will adds up more challenges:
+		6.1 locating these configuration files within the project is a tough job
+		6.2 since the qa/deployment engineers are no way connected to the technology or syntax of those configuration files (for eg.. xml, json, yaml) it would be very difficult for them to understand and make the changes
+		6.3 since they dont know the syntax or technology of these files, they cannot guarantee the changes they made are syntactically correct which would broke the code during execution
+	
+To overcome all the above problems in deploying and running the application we need to use build tools
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

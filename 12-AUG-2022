@@ -1,0 +1,79 @@
+What is a build tool, why do we need a build tool?
+There are various different activities that has to be conducted/performed to run an application like
+	1. setting an classpath
+	2. exporting environment variables
+	3. writing/modifying configuration files
+	4. compiling the application
+	5. packaging/bundling the application with all the required files for execution
+	6. running the application 
+all these activities put together to run the application is called build process or building an application. Instead of we carrying these activities manually, we automate the above process of running the application through tools which are called "build tools"
+		
+From developer:
+The developer during the stage of development of the application, he has to test the application code, inorder to verify the code he has to run the application. To run the application the developer has to perform sequence of activities like
+	1. setting classpath and environment variables
+	2. modify configuration files
+	3. compiling
+	4. packaging
+	5. running the application
+if the developer is performing these activities manually he/she run into lot of difficulties 
+
+why not the development team can use IDE for compiling/packaging and executing the application to testing the application?
+When we are working on large enterprise application, the application may comprises of several modules, where each of these modules has inter-dependencies interms of 
+	1. build order dependencies
+	2. deployment and runtime dependencies
+which cannot be managed through ides, and the developer has to manually take care of managing these modules in running and testing the application
+
+problems in carrying the build/deployment activities manually
+1. The no of steps involved in building/running the application are more, so performing these activites manually takes lot of time and most of the development time of the developer would be wasted 
+2. since these are repeated activites and that has to be conducted by the developer repeatitively there are high chances of perform some human error while carrying these activities due to which failure or incorrect execution of the code will be resulted.
+	
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
